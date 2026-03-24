@@ -20,22 +20,10 @@ If everything works, the quiz should mark itself as completed.
 - Sends completion data (score, status, etc.)  
 - Commits everything back to Moodle  
 
-## Compatibility
-
-Tested with:
-- SCORM 1.2  
-- SCORM 2004  
-- iSpring-based quizzes  
-- Most standard SCORM packages on Moodle  
-
 ## Notes
 
 This relies on how SCORM tracking works internally. If a quiz uses additional validation or server-side checks, this may not work as expected.
 
-## Files
-
-- `scorm-automation.js` — basic version  
-- `scorm-automation-enhanced.js` — improved detection and handling  
 
 ## Example
 
