@@ -25,8 +25,7 @@ If everything works, the quiz should mark itself as completed.
 This relies on how SCORM tracking works internally. If a quiz uses additional validation or server-side checks, this may not work as expected.
 
 
-## Example
+## Why this works
 
-```javascript
-// Paste the script into the console and run it
-// It should handle everything automatically
+- Quiz answers are harcoded on the data variable in the html source code of the page and all validation is client-side
+- data variable is encoded using base64 , which easily decoded , and answers of the questions can be eazily extracted 
